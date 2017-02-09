@@ -6,7 +6,7 @@ module.exports = {
   entry: './app/entry.js',
   output: {
     filename: 'bundle.js',
-    path: '/build',
+    path: __dirname + '/build',
   },
   plugins: [
     new HTMLPlugin({
